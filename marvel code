@@ -1,0 +1,13 @@
+int led = 2;   // LED connected to GPIO 2
+
+void setup() {
+  pinMode(led, OUTPUT);   // Set LED pin as output
+}
+
+void loop() {
+  digitalWrite(led, HIGH);  // Turn LED ON
+  delay(1000);              // Wait 1 second
+  
+  digitalWrite(led, LOW);   // Turn LED OFF
+  delay(1000);              // Wait 1 second
+}
